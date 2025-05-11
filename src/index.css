@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: "Nunito", sans-serif;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+:root{
+  --bg-green:#3ACF2B;
+  --bg-blue:#1A75BB;
+  --light-grey:#D7D4FF;
+  --light-blue:#1A75CA;
+  --light-black:#0F1425;
+  --text-color:#838694;
+}
+.text-light{
+  color: var(--text-color) !important;
+}
+.bg-green{
+  background-color:var(--bg-green) ;
+}
+.bg-light-grey{
+  background-color: #F4F2F9;
+}
+.text-green{
+  color: var(--bg-green);
+}
+.bg-blue{
+  background-color: var(--bg-blue);
+}
+.text-blue{
+  color: var(--bg-blue);
+}
+.bg-grey{
+  background-color:var(--light-grey);
+}
+.light-blue{
+  color: var(--light-blue);
+}
+.text-grey{
+  color: var(--light-grey);
+}
+.light-black{
+  background-color: var(--light-black);
+}
+h6{
+  padding: 0;
+  margin: 0;
+}
+
+.logo{
+width: 200px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-weight: 600;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-hiro{
+  background-image: url('https://tekgronepal.com.np/wp-content/uploads/2023/01/hero-line-shape-2.png');
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hiro-radius{
+  border-radius: 50% 50% 50% 0;
+}
+
+.line{
+  height: 2px;
+  background-color: var(--light-black);
+  width: 200px;
+}
+.icons{
+  font-size: 65px;
+  font-weight: 400;
+}
+
+.discover h2{
+  font-weight: 600;
+  font-size:42px ;
+  font-family: "Poppins",sans-serif;
+}
+.capabilities h2{
+  font-weight: 600;
+  font-size:42px ;
+  font-family: "Poppins",sans-serif;
+}
+
+.capabilities img{
+  height: 200px;
+}
+.commitment h2{
+  font-weight: 600;
+  font-size:42px ;
+  font-family: "Poppins",sans-serif;
+}
